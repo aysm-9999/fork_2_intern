@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 import { v4 as uuid } from "uuid";
 
-const socket = io("http://localhost:4000"); //connecting to backend
+const socket = io("centerbeam.proxy.rlwy.net:52425"); //connecting to backend
 const columns = ["todo", "in-progress", "done"];//creating column
 
 const role =
