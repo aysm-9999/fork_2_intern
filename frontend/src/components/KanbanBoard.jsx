@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 import { v4 as uuid } from "uuid";
 
-const socket = io("https://fork-2-intern-backend-production.up.railway.app"); //connecting to backend
+const socket = io("https://fork-2-intern-1.onrender.com/"); //connecting to backend
 const columns = ["todo", "in-progress", "done"];//creating column
 
 const role =
